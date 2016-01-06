@@ -1,1 +1,220 @@
-hello!
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Спецтех24 | Главная страница</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/live.js">
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container clearfix">
+      <div class="logo">
+        <img alt="Спецтех24" class="logo-image" src="img/truck_icon_black.png"> <span class="logo-text"><strong>Спецтех</strong>24</span>
+      </div>
+      <nav class="menu-main">
+        <ul>
+          <li class="menu-main-item">
+            <a class="menu-main-link-active" href="index.html">О компании</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="portfolio.html">Портфолио</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-button" href="#">Заказать звонок</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header><!-- Main -->
+  <main>
+    <div class="promo">
+      <div class="container clearfix">
+        <p class="promo-together">Вместе мы справимся!</p>
+        <h1 class="promo-description">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1><a class="promo-button" href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+    <div class="call">
+      <div class="container">
+        <p class="call-text">Закажите бесплатную консультацию по подбору подходящей техники</p>
+        <form action="post" class="call-form row">
+          <div class="grid-3">
+            <input class="call-form-name" placeholder='Как вас зовут?' type="text">
+          </div>
+          <div class="grid-3">
+            <input class="call-form-phone" placeholder='Номер для связи' type="text">
+          </div>
+          <div class="grid-3">
+            <div class="call-form-date-label">
+              Выберите дату
+              <div class="call-form-date-div">
+                <input class="call-form-date" id="call-form-date" type="date">
+              </div>
+            </div>
+          </div>
+          <div class="grid-3">
+            <button class="call-form-button">Заказать консультацию</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="reasons">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="reason-item grid-3">
+            <p class="reason-item-service">Техника проходит обязательное обслуживание перед каждым выездом</p>
+          </div>
+          <div class="reason-item grid-3">
+            <p class="reason-item-signal">Все машины оборудованы спец. сигналами для предупреждения аварий</p>
+          </div>
+          <div class="reason-item grid-3">
+            <p class="reason-item-protection">Привезём модные строительные ограждения к каждому заказу от 20 000</p>
+          </div>
+          <div class="reason-item grid-3">
+            <p class="reason-item-experts">С техникой приедут квалифицированные операторы и водители</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sale">
+      <div class="container clearfix">
+        <div class="row">
+          <section class="sale-catalog-menu grid-3">
+            <h2 class="sale-catalog-menu-title">Вся техника</h2>
+            <ul>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Гусеничные экскаваторы</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Колёсные экскаваторы</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Мини-экскаваторы</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Автокраны</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Фронтальные погрузчики</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Навесное оборудование</a>
+              </li>
+              <li class="sale-catalog-menu-item">
+                <a class="sale-catalog-menu-link" href="#">Дизельгенераторы</a>
+              </li>
+            </ul>
+          </section>
+          <section class="sale-specials grid-9">
+            <h2 class="sale-specials-title">Спецпредложение</h2>
+            <table class="specials-table">
+              <tr>
+                <th>Позиция для аренды</th>
+                <th>За смену</th>
+                <th>За неделю</th>
+                <th>За месяц</th>
+              </tr>
+              <tr>
+                <td>Мини-эскаватор CAT</td>
+                <td>5000</td>
+                <td>25000</td>
+                <td>60000</td>
+              </tr>
+              <tr class="bg-white">
+                <td>Эскаватор VOLVO</td>
+                <td>3000</td>
+                <td>15000</td>
+                <td>40000</td>
+              </tr>
+              <tr>
+                <td>Грузовик VOLVO</td>
+                <td>5000</td>
+                <td>25000</td>
+                <td>60000</td>
+              </tr>
+              <tr class="bg-white">
+                <td>Мини-экскаватор CAT</td>
+                <td>3000</td>
+                <td>15000</td>
+                <td>40000</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="advantages">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="grid-4">
+            <section class="advantages-total">
+              <h2 class="advantages-total-title"><strong>Спецтех</strong> в цифрах</h2>
+              <ul>
+                <li class="advantages-total-item"><span class="advantages-total-number">16</span>Лет работы</li>
+                <li class="advantages-total-item"><span class="advantages-total-number">715</span>Объектов построено</li>
+                <li class="advantages-total-item"><span class="advantages-total-number">108</span>Единиц техники</li>
+                <li class="advantages-total-item"><span class="advantages-total-number">500+</span>Довольных клиентов</li>
+              </ul>
+            </section>
+          </div>
+          <div class="grid-8">
+            <section class="advantages-feedback">
+              <h2 class="advantages-feedback-title">Нас рекомендуют клиенты</h2>
+              <article class="advantages-feedback-item clearfix">
+                <img alt="photo" class="advantages-feedback-item-photo" src="img/photo-2.jpg">
+                <blockquote>
+                  Спецтех24 - это надёжные партнёры нашей компании, которые всегда выполняют работу быстро и ещё у них отличное чувство юмора! Благодарим и рекомендуем.<br>
+                  <cite>Оля Вольт, Реал-Строй</cite>
+                </blockquote>
+              </article>
+              <article class="advantages-feedback-item clearfix">
+                <img alt="photo" class="advantages-feedback-item-photo" src="img/photo-1.jpg">
+                <blockquote>
+                  Все виды работ, предусмотренные договором. компания выполнила на высоком профессиональном уровне, качественно, в срок, в соответствии с требованиями ООО "ТНН" рекомендует<br>
+                  <cite>Григорий Безымянных, ТНН</cite>
+                </blockquote>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d167998.10803373056!2d2.2074740643680624!3d48.85877410312378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1450297057940"></iframe>
+    </div>
+  </main><!-- Footer -->
+  <footer class="footer clearfix">
+    <div class="container">
+      <a class="logo" href="index.html"><img alt="Спецтех24" class="logo-image" src="img/truck_icon_white.png"> <span class="logo-text"><strong>Спецтех</strong>24</span></a>
+      <nav class="menu-main">
+        <ul>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="index.html">О компании</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="portfolio.html">Портфолио</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="menu-main-link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="menu-main-item">
+            <a class="button-phone" href="#">Заказать звонок</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
